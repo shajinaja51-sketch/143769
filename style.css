@@ -1,0 +1,80 @@
+
+* {
+ box-sizing: border-box;
+}
+body {
+ margin: 0;
+ font-family: system-ui, sans-serif;
+line-height: 1.65;
+color: #18332b;
+background-color: #f4f8f5;
+}
+
+header,footer{
+padding:1rem;
+color:white;
+background-color: #cc6600;
+}
+
+site-name{
+maegin:0 0 0.5rem;
+font-size:1.25rem;
+font-weigth:bold;
+}
+
+nav ul {
+display:flex;
+flex-wrap:wrap;
+gap:0.5rem;
+margin:0;
+padding:0;
+list-style: none;
+}
+
+nas a {
+ display:block;
+padding:0.35 rem 0.75rem;
+color:white;
+border-radius: 0.35rem;
+}
+
+nav a:hover,nav a[aria-current="page"]{
+background:#e2f1e8;
+color:#174c3c;
+}
+
+a:focus-visble{
+outline:3px solid #c67400;
+outline-offset:3px;
+}
+main{
+width:min(92%,56rem);
+margin:2rem auto;
+}
+
+.card{
+margin:1rem 0;
+padding:1rem;
+border:1px solid #d1e2d7;
+border-radius:0.75rem;
+background:white;
+}
+
+img{
+display:block;
+max-width:100%;
+height:auto;
+border-radius:0.5rem;
+}
+
+.button{
+display:inline-block;
+padding:0.6rem 1rem;
+border-radius:0.35rem;
+background:#9900ff;
+color:white;
+text-decoration:none;
+}
+
+
+   
